@@ -4,4 +4,16 @@ img {
 }
 .jumbotron {
   text-align: center;
+  background-color: lightyellow;
+}
+.well {
+  background-color: lightyellow;
+}
+
+body {
+  background-image: url("../img/Wedding-Party.jpg");
+}
+#output {
+  display: none;
+  font-size: 25px;
 }

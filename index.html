@@ -30,19 +30,95 @@
           <img src="img/michelle1-3-1.jpg">
         <label>15x30 inches</label>
         </div>
+
         <div class="col-md-2">
           <img src="img/michelle1-4-1.jpg">
         <label>25x50 inches</label>
         </div>
+
         <div class="col-md-2">
           <img src="img/michelle1-5-1.jpg">
         <label>4x7 feet</label>
         </div>
+
         <div class="col-md-2">
           <img src="img/michelle1-9-1.jpg">
         <label>8x12 feet</label>
         </div>
       </div>
+        <div class="well">
+          <form id="formOne">
+            <div class="form-group">
+              <label for="person1">First Name</label>
+              <input id="person1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="person2">Last Name</label>
+              <input id="person2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="animal">Address</label>
+              <input id="animal" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="exclamation">Telephone</label>
+              <input id="exclamation" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="verb">Painting</label>
+              <div class="radio">
+                <label>
+                <input type="radio" name="sizes" value="postcard">
+                  Postcard
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="sizes" value="10x15 inches">
+                  10x15 inches
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="sizes" value="15x30 inches">
+                  15x30 inches
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="sizes" value="25x50 inches">
+                25x50 inches
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="sizes" value="4x7 feet">
+                4x7 feet
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="sizes" value="8x12 feet">
+                8x12 feet
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="noun">Shipping</label>
+              <select class="form-control" id="shipping">
+                <option>Overnight</option>
+                <option>3-day shipping</option>
+                <option>7-day shipping</option>
+              </select>
+
+            </div>
+            <button type="submit" class="btn">Place your order</button>
+          </form>
+          </div>
+          <div id="output">
+            <p>Thanks for purchasing...</p>
+          </div>
     </div>
   </body>
 </html>
