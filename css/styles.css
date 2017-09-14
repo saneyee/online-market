@@ -10,10 +10,12 @@ img {
   background-color: lightyellow;
 }
 
-body {
-  background-image: url("../img/Wedding-Party.jpg");
-}
 #output {
   display: none;
   font-size: 25px;
+  color: black;
+}
+
+body {
+  background-image: url("../img/Wedding-Party.jpg");
 }

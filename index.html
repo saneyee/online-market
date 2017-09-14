@@ -57,12 +57,12 @@
               <input id="person2" class="form-control" type="text">
             </div>
             <div class="form-group">
-              <label for="animal">Address</label>
-              <input id="animal" class="form-control" type="text">
+              <label for="address">Address</label>
+              <input id="address" class="form-control" type="text">
             </div>
             <div class="form-group">
-              <label for="exclamation">Telephone</label>
-              <input id="exclamation" class="form-control" type="text">
+              <label for="telephone">Telephone</label>
+              <input id="telephone" class="form-control" type="tel">
             </div>
             <div class="form-group">
               <label for="verb">Painting</label>
@@ -108,17 +108,23 @@
               <label for="noun">Shipping</label>
               <select class="form-control" id="shipping">
                 <option>Overnight</option>
-                <option>3-day shipping</option>
-                <option>7-day shipping</option>
+                <option>3-days shipping</option>
+                <option>7-days shipping</option>
               </select>
 
             </div>
             <button type="submit" class="btn">Place your order</button>
           </form>
-          </div>
+        </div>
+
           <div id="output">
-            <p>Thanks for purchasing...</p>
+            <div class="well">
+            <p>Thanks <span class="person1"></span> <span class="person2"></span> for purchasing with MiMi's Art Gallery.</p>
+            <p>Your order is confirmed.</p>
+            <p><span class="person1"></span> will receive a text message at <span class="telephone"></span>.</p>
+            <p>Item will be delivered within <span class="shipping"></span> at your address <span class="address"></span>.</p></p>
           </div>
+        </div>
     </div>
   </body>
 </html>
