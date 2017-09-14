@@ -7,12 +7,13 @@ $(document).ready(function() {
     var telephoneInput = $("input#telephone").val();
     var paintingSize = $("input:radio[name=sizes]:checked").val();
     var shippingInput = $("#shipping").val();
-    $(".person1").text(nameInputfirst);
-    $(".person2").text(nameInputlast);
-    $(".address").text(addressInput);
-    $(".telephone").text(telephoneInput);
-    $(".telephone").text(paintingSize);
-    $(".shipping").text(shippingInput);
+
+    $("#person1d").text(nameInputfirst);
+    $("#person2d").text(nameInputlast);
+    $("#addressd").text(addressInput);
+    $("#telephoned").text(telephoneInput);
+    $("#product").text(paintingSize);
+    $("#shippingd").text(shippingInput);
 
     $("#output").show();
     event.preventDefault();
